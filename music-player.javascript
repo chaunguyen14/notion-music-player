@@ -35,7 +35,7 @@ $(function () {
       "Second Life",
       "F*ck My Life",
       "Fallin' Flower",
-      "Bittersweet"
+      "Bittersweet (feat. LeeHi)"
     ],
     trackNames = [
       "SEVENTEEN - Your Choice",
@@ -52,7 +52,7 @@ $(function () {
       "https://raw.githubusercontent.com/chaunguyen14/notion-music-player/main/svt%20-%20Second%20Life.mp3",
       "https://raw.githubusercontent.com/chaunguyen14/notion-music-player/main/svt%20-%20Fuck%20My%20Life.mp3",
       "https://raw.githubusercontent.com/chaunguyen14/notion-music-player/main/svt%20-%20Fallin'%20Flower.mp3",
-      "https://raw.githubusercontent.com/chaunguyen14/notion-music-player/main/wonwoo%20x%20mingyu%20-%20Bittersweet%20(Feat.LeeHi).mp3"
+       "https://raw.githubusercontent.com/chaunguyen14/notion-music-player/main/wonwoo%20x%20mingyu%20-%20Bittersweet%20(Feat.LeeHi).mp3"
     ],
     playPreviousTrackButton = $("#play-previous"),
     playNextTrackButton = $("#play-next"),
