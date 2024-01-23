@@ -34,17 +34,18 @@ $(function () {
       "All My Love",
       "Second Life",
       "F*ck My Life",
-      "Fallin' Flower"
+      "Fallin' Flower",
+      "Bittersweet"
     ],
     trackNames = [
       "SEVENTEEN - Your Choice",
       "SEVENTEEN - Semicolon",
       "SEVENTEEN - An Ode",
       "SEVENTEEN - FML",
-      "SEVENTEEN - Fallin' Flower"
+      "SEVENTEEN - Fallin' Flower",
       "WONWOO & MINGYU - Bittersweet (feat. LeeHi)"
     ],
-    albumArtworks = ["_1", "_2", "_3", "_4", "_5"],
+    albumArtworks = ["_1", "_2", "_3", "_4", "_5", "_6"],
     trackUrl = [
       "https://raw.githubusercontent.com/chaunguyen14/notion-music-player/main/svt%20-%20Heaven's%20Cloud.mp3",
       "https://raw.githubusercontent.com/chaunguyen14/notion-music-player/main/svt%20-%20All%20My%20Love.mp3",
