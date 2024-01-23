@@ -320,25 +320,25 @@ body {
 <!-- insert the html code from the codepen here -->
 </body>
   <div id="app-cover">
-    <div id="bg-artwork"></div>
-    <div id="bg-layer"></div>
-    <div id="player">
-      <div id="player-track">
-        <div id="album-name"></div>
-        <div id="track-name"></div>
-        <div id="track-time">
-          <div id="current-time"></div>
-          <div id="track-length"></div>
-        </div>
-        <div id="s-area">
-          <div id="ins-time"></div>
-          <div id="s-hover"></div>
-          <div id="seek-bar"></div>
-        </div>
+  <div id="bg-artwork"></div>
+  <div id="bg-layer"></div>
+  <div id="player">
+    <div id="player-track">
+      <div id="album-name"></div>
+      <div id="track-name"></div>
+      <div id="track-time">
+        <div id="current-time"></div>
+        <div id="track-length"></div>
       </div>
-      <div id="player-content">
-        <div id="album-art">
-          <img
+      <div id="s-area">
+        <div id="ins-time"></div>
+        <div id="s-hover"></div>
+        <div id="seek-bar"></div>
+      </div>
+    </div>
+    <div id="player-content">
+      <div id="album-art">
+        <img
             src="https://raw.githubusercontent.com/chaunguyen14/notion-music-player/main/svt%20-%20Your%20Choice.jpeg"
             class="active"
             id="_1"
@@ -363,28 +363,28 @@ body {
             src="https://raw.githubusercontent.com/chaunguyen14/notion-music-player/main/wonwoo%20x%20mingyu%20-%20Bittersweet%20(Feat.LeeHi).jpeg"
             id="_6"
             />
-          <div id="buffer-box">Buffering ...</div>
+        <div id="buffer-box">Buffering ...</div>
+      </div>
+      <div id="player-controls">
+        <div class="control">
+          <div class="button" id="play-previous">
+            <i class="fas fa-backward"></i>
+          </div>
         </div>
-        <div id="player-controls">
-          <div class="control">
-            <div class="button" id="play-previous">
-              <i class="fas fa-backward"></i>
-            </div>
+        <div class="control">
+          <div class="button" id="play-pause-button">
+            <i class="fas fa-play"></i>
           </div>
-          <div class="control">
-            <div class="button" id="play-pause-button">
-              <i class="fas fa-play"></i>
-            </div>
-          </div>
-          <div class="control">
-            <div class="button" id="play-next">
-              <i class="fas fa-forward"></i>
-            </div>
+        </div>
+        <div class="control">
+          <div class="button" id="play-next">
+            <i class="fas fa-forward"></i>
           </div>
         </div>
       </div>
     </div>
   </div>
+</div>
   <!-- insert the js code from the codepen here -->
 
 <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
@@ -425,16 +425,16 @@ body {
       "All My Love",
       "Second Life",
       "F*ck My Life",
-      "Fallin' Flower"
-      "Bittersweet"
+      "Fallin' Flower",
+      "Bittersweet (feat. LeeHi)"
     ],
     trackNames = [
       "SEVENTEEN - Your Choice",
       "SEVENTEEN - Semicolon",
       "SEVENTEEN - An Ode",
       "SEVENTEEN - FML",
-      "SEVENTEEN - Fallin' Flower"
-      "WONWOO & MINGYU - Bittersweet"
+      "SEVENTEEN - Fallin' Flower",
+      "WONWOO & MINGYU - Bittersweet (feat. LeeHi)"
     ],
     albumArtworks = ["_1", "_2", "_3", "_4", "_5", "_6"],
     trackUrl = [
@@ -443,7 +443,7 @@ body {
       "https://raw.githubusercontent.com/chaunguyen14/notion-music-player/main/svt%20-%20Second%20Life.mp3",
       "https://raw.githubusercontent.com/chaunguyen14/notion-music-player/main/svt%20-%20Fuck%20My%20Life.mp3",
       "https://raw.githubusercontent.com/chaunguyen14/notion-music-player/main/svt%20-%20Fallin'%20Flower.mp3",
-      "https://raw.githubusercontent.com/chaunguyen14/notion-music-player/main/wonwoo%20x%20mingyu%20-%20Bittersweet%20(Feat.LeeHi).mp3"
+       "https://raw.githubusercontent.com/chaunguyen14/notion-music-player/main/wonwoo%20x%20mingyu%20-%20Bittersweet%20(Feat.LeeHi).mp3"
     ],
     playPreviousTrackButton = $("#play-previous"),
     playNextTrackButton = $("#play-next"),
