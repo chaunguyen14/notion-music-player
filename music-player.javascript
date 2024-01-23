@@ -42,6 +42,7 @@ $(function () {
       "SEVENTEEN - An Ode",
       "SEVENTEEN - FML",
       "SEVENTEEN - Fallin' Flower"
+      "WONWOO & MINGYU - Bittersweet (feat. LeeHi)"
     ],
     albumArtworks = ["_1", "_2", "_3", "_4", "_5"],
     trackUrl = [
@@ -50,6 +51,7 @@ $(function () {
       "https://raw.githubusercontent.com/chaunguyen14/notion-music-player/main/svt%20-%20Second%20Life.mp3",
       "https://raw.githubusercontent.com/chaunguyen14/notion-music-player/main/svt%20-%20Fuck%20My%20Life.mp3",
       "https://raw.githubusercontent.com/chaunguyen14/notion-music-player/main/svt%20-%20Fallin'%20Flower.mp3"
+      "https://raw.githubusercontent.com/chaunguyen14/notion-music-player/main/wonwoo%20x%20mingyu%20-%20Bittersweet%20(Feat.LeeHi).mp3"
     ],
     playPreviousTrackButton = $("#play-previous"),
     playNextTrackButton = $("#play-next"),
