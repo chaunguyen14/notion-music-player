@@ -5,7 +5,6 @@
 *:focus {
   outline: none;
 }
-body > iframe:first-child { display: none !important; }
 
 body {
   font-family: Helvetica, Arial;
@@ -18,7 +17,7 @@ body {
   top: 50%;
   right: 0;
   left: 0;
-  width: 430px;
+  width: 350px;
   height: 100px;
   margin: -4px auto;
 }
@@ -29,7 +28,7 @@ body {
   right: -30px;
   bottom: -30px;
   left: -30px;
-  background-color: #fff;
+  background-image: url("https://raw.githubusercontent.com/himalayasingh/music-player-1/master/img/_1.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 50%;
@@ -58,9 +57,9 @@ body {
 #player-track {
   position: absolute;
   top: 0;
-  right: 15px;
-  left: 15px;
-  padding: 13px 22px 10px 184px;
+  right: 10px;
+  left: 10px;
+  padding: 18px 18px 18px 150px;
   background-color: #fff7f7;
   border-radius: 15px 15px 0 0;
   transition: 0.3s ease top;
@@ -73,18 +72,18 @@ body {
 
 #album-name {
   color: #54576f;
-  font-size: 17px;
+  font-size: 13px;
   font-weight: bold;
 }
 
 #track-name {
   color: #acaebd;
-  font-size: 13px;
-  margin: 2px 0 13px 0;
+  font-size: 11px;
+  margin: 2px 0 10px 0;
 }
 
 #track-time {
-  height: 12px;
+  height: 10px;
   margin-bottom: 3px;
   overflow: hidden;
 }
@@ -100,7 +99,7 @@ body {
 #current-time,
 #track-length {
   color: transparent;
-  font-size: 11px;
+  font-size: 10px;
   background-color: #ffe8ee;
   border-radius: 10px;
   transition: 0.3s ease all;
@@ -173,9 +172,9 @@ body {
 #album-art {
   position: absolute;
   top: -40px;
-  width: 115px;
-  height: 115px;
-  margin-left: 40px;
+  width: 95px;
+  height: 95px;
+  margin-left: 20px;
   transform: rotateZ(0);
   transition: 0.3s ease all;
   box-shadow: 0 0 0 10px #fff;
@@ -221,7 +220,7 @@ body {
 
 #album-art.active img.active {
   z-index: 1;
-  animation: rotateAlbumArt 3s linear 0s infinite forwards;
+  animation: rotateAlbumArt 5s linear 0s infinite forwards;
 }
 
 @keyframes rotateAlbumArt {
@@ -318,8 +317,7 @@ body {
 </head>
 <body>
 <!-- insert the html code from the codepen here -->
-</body>
-  <div id="app-cover">
+<div id="app-cover">
   <div id="bg-artwork"></div>
   <div id="bg-layer"></div>
   <div id="player">
@@ -389,7 +387,7 @@ body {
 
 <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
   <script>
-  $(function () {
+ $(function () {
   var playerTrack = $("#player-track"),
     bgArtwork = $("#bg-artwork"),
     bgArtworkUrl,
@@ -433,8 +431,8 @@ body {
       "SEVENTEEN - Semicolon",
       "SEVENTEEN - An Ode",
       "SEVENTEEN - FML",
-      "SEVENTEEN - Fallin' Flower",
-      "WONWOO & MINGYU - Bittersweet (feat. LeeHi)"
+      "SEVENTEEN - 舞い落ちる花びら",
+      "WONWOO & MINGYU"
     ],
     albumArtworks = ["_1", "_2", "_3", "_4", "_5", "_6"],
     trackUrl = [
